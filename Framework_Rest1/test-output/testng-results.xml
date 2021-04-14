@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="REtailApp" duration-ms="37165" started-at="2021-04-14T01:31:37Z" finished-at="2021-04-14T01:32:14Z">
+    <groups>
+    </groups>
+    <test name="LogiTest" duration-ms="31884" started-at="2021-04-14T01:31:37Z" finished-at="2021-04-14T01:32:09Z">
+      <class name="com.retail.testcases.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.retail.testcases.LoginTest@7cd62f43]" name="init" is-config="true" duration-ms="11171" started-at="2021-04-13T21:31:37Z" finished-at="2021-04-13T21:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.LoginTest@7cd62f43]" name="before" is-config="true" duration-ms="2079" started-at="2021-04-13T21:31:48Z" finished-at="2021-04-13T21:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.retail.testcases.LoginTest@7cd62f43]" name="doLogin" duration-ms="15375" started-at="2021-04-13T21:31:50Z" data-provider="getData" finished-at="2021-04-13T21:32:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=admin, ExpectedLoginStatus=success, Password=whizdom, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.LoginTest@7cd62f43]" name="after" is-config="true" duration-ms="2965" started-at="2021-04-13T21:32:06Z" finished-at="2021-04-13T21:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.retail.testcases.LoginTest -->
+    </test> <!-- LogiTest -->
+    <test name="AddCategory" duration-ms="3995" started-at="2021-04-14T01:32:09Z" finished-at="2021-04-14T01:32:13Z">
+      <class name="com.retail.testcases.AddCategory">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.retail.testcases.AddCategory@598067a5]" name="init" is-config="true" duration-ms="93" started-at="2021-04-13T21:32:09Z" finished-at="2021-04-13T21:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="addCategory(java.util.Hashtable)[pri:0, instance:com.retail.testcases.AddCategory@598067a5]" name="addCategory" duration-ms="3515" started-at="2021-04-13T21:32:09Z" data-provider="getData" finished-at="2021-04-13T21:32:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, CategoryName=Furniture}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategory -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.AddCategory@598067a5]" name="before" is-config="true" duration-ms="0" started-at="2021-04-13T21:32:09Z" finished-at="2021-04-13T21:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.AddCategory@598067a5]" name="after" is-config="true" duration-ms="24" started-at="2021-04-13T21:32:13Z" finished-at="2021-04-13T21:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="addCategory(java.util.Hashtable)[pri:0, instance:com.retail.testcases.AddCategory@598067a5]" name="addCategory" duration-ms="255" started-at="2021-04-13T21:32:13Z" data-provider="getData" finished-at="2021-04-13T21:32:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, CategoryName=Chair}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategory -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.AddCategory@598067a5]" name="before" is-config="true" duration-ms="0" started-at="2021-04-13T21:32:13Z" finished-at="2021-04-13T21:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.AddCategory@598067a5]" name="after" is-config="true" duration-ms="17" started-at="2021-04-13T21:32:13Z" finished-at="2021-04-13T21:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.AddCategory@598067a5]" name="before" is-config="true" duration-ms="1" started-at="2021-04-13T21:32:13Z" finished-at="2021-04-13T21:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="addCategory(java.util.Hashtable)[pri:0, instance:com.retail.testcases.AddCategory@598067a5]" name="addCategory" duration-ms="52" started-at="2021-04-13T21:32:13Z" data-provider="getData" finished-at="2021-04-13T21:32:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, CategoryName=Mobile}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategory -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.AddCategory@598067a5]" name="after" is-config="true" duration-ms="19" started-at="2021-04-13T21:32:13Z" finished-at="2021-04-13T21:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.retail.testcases.AddCategory -->
+    </test> <!-- AddCategory -->
+    <test name="AddProduct" duration-ms="1006" started-at="2021-04-14T01:32:13Z" finished-at="2021-04-14T01:32:14Z">
+      <class name="com.retail.testcases.AddProduct">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="init" is-config="true" duration-ms="76" started-at="2021-04-13T21:32:13Z" finished-at="2021-04-13T21:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="before" is-config="true" duration-ms="1" started-at="2021-04-13T21:32:13Z" finished-at="2021-04-13T21:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="addProduct(java.util.Hashtable)[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="addProduct" duration-ms="258" started-at="2021-04-13T21:32:13Z" data-provider="getData" finished-at="2021-04-13T21:32:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Price=12, Runmode=Y, CategoryName=Furniture, Quantity=300, ProductName=Chair}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="after" is-config="true" duration-ms="30" started-at="2021-04-13T21:32:13Z" finished-at="2021-04-13T21:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="before" is-config="true" duration-ms="0" started-at="2021-04-13T21:32:13Z" finished-at="2021-04-13T21:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="addProduct(java.util.Hashtable)[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="addProduct" duration-ms="93" started-at="2021-04-13T21:32:13Z" data-provider="getData" finished-at="2021-04-13T21:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Price=383, Runmode=Y, CategoryName=Camera, Quantity=33, ProductName=Sony}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="after" is-config="true" duration-ms="33" started-at="2021-04-13T21:32:14Z" finished-at="2021-04-13T21:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="before" is-config="true" duration-ms="0" started-at="2021-04-13T21:32:14Z" finished-at="2021-04-13T21:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="addProduct(java.util.Hashtable)[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="addProduct" duration-ms="74" started-at="2021-04-13T21:32:14Z" data-provider="getData" finished-at="2021-04-13T21:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Price=212, Runmode=Y, CategoryName=Mobile, Quantity=22, ProductName=Apple}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="after" is-config="true" duration-ms="18" started-at="2021-04-13T21:32:14Z" finished-at="2021-04-13T21:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="before" is-config="true" duration-ms="0" started-at="2021-04-13T21:32:14Z" finished-at="2021-04-13T21:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="addProduct(java.util.Hashtable)[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="addProduct" duration-ms="74" started-at="2021-04-13T21:32:14Z" data-provider="getData" finished-at="2021-04-13T21:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Price=333, Runmode=Y, CategoryName=Furniture, Quantity=10, ProductName=Table}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="after" is-config="true" duration-ms="25" started-at="2021-04-13T21:32:14Z" finished-at="2021-04-13T21:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="before" is-config="true" duration-ms="0" started-at="2021-04-13T21:32:14Z" finished-at="2021-04-13T21:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="addProduct(java.util.Hashtable)[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="addProduct" duration-ms="70" started-at="2021-04-13T21:32:14Z" data-provider="getData" finished-at="2021-04-13T21:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Price=383, Runmode=Y, CategoryName=Mobile, Quantity=33, ProductName=Nokia}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="after" is-config="true" duration-ms="13" started-at="2021-04-13T21:32:14Z" finished-at="2021-04-13T21:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="addProduct(java.util.Hashtable)[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="addProduct" duration-ms="65" started-at="2021-04-13T21:32:14Z" data-provider="getData" finished-at="2021-04-13T21:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Price=212, Runmode=Y, CategoryName=Mobile, Quantity=22, ProductName=Samsung}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="before" is-config="true" duration-ms="0" started-at="2021-04-13T21:32:14Z" finished-at="2021-04-13T21:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="after" is-config="true" duration-ms="16" started-at="2021-04-13T21:32:14Z" finished-at="2021-04-13T21:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="before" is-config="true" duration-ms="0" started-at="2021-04-13T21:32:14Z" finished-at="2021-04-13T21:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="addProduct(java.util.Hashtable)[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="addProduct" duration-ms="108" started-at="2021-04-13T21:32:14Z" data-provider="getData" finished-at="2021-04-13T21:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Price=277, Runmode=Y, CategoryName=Camera, Quantity=100, ProductName=Nikon}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.AddProduct@42dafa95]" name="after" is-config="true" duration-ms="17" started-at="2021-04-13T21:32:14Z" finished-at="2021-04-13T21:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.retail.testcases.AddProduct -->
+    </test> <!-- AddProduct -->
+  </suite> <!-- REtailApp -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="REtailApp">
+
+<test name ="LogiTest">
+<classes>
+<class name = "com.retail.testcases.LoginTest">
+</class>
+</classes>
+</test>
+
+<test name ="AddCategory">
+<classes>
+<class name = "com.retail.testcases.AddCategory">
+</class>
+</classes>
+</test>
+
+<test name ="AddProduct">
+<classes>
+<class name = "com.retail.testcases.AddProduct">
+</class>
+</classes>
+</test>
+</suite>
